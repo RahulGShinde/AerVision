@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/solutions.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>SOLUTIONS - AERVISION TECHNOLOGIES</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="solutions">
+        <div class="aerWatch solution">
+          <a href="/aerwatch.html">
+            <img src="./assets/images/AerWatch.jpeg" alt="AerWatch" />
+            <h1>AerWatch™ - A.I.Vision & Sensing</h1>
+          </a>
+        </div>
+        <div class="aerAccess solution">
+          <a href="">
+            <img src="./assets/images/AerAccess.jpeg" alt="AerAccess" />
+            <h1>AerAccess™ - Biometrics & Access Control</h1>
+          </a>
+        </div>
+        <div class="mealVision solution">
+          <a href="">
+            <img src="./assets/images/MealVision.jpeg" alt="MealVision" />
+            <h1>MealVision™</h1>
+          </a>
+        </div>
+        <div class="onlineApps solution">
+          <a href="">
+            <img src="./assets/images/OnlineApps.jpg" alt="OnlineApps" />
+            <h1>Online Apps</h1>
+          </a>
+        </div>
+      </div>
+
+      <div class="hrline"></div>
+      <h2 class="our_clients">OUR CLIENTS</h2>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"><img src="/assets/client-img/acg.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/ag.png" alt="" > </div>
+          <div class="swiper-slide"><img src="/assets/client-img/au_g20_2014.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/avi.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/bne.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/brookfield.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/chubb.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/csiro.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/dfat.png" alt="" ></div>
+          <div class="swiper-slide"><img src="/assets/client-img/gccc.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/heathrow.png" alt="" ></div>               
+          <div class="swiper-slide"><img src="/assets/client-img/ma.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/nicta.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/nsw_edu.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/nt_gov.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/qp.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/stockland.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/thestar.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/unsw.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/virgin.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/westfield.png" alt="" ></div>          
+          <div class="swiper-slide"><img src="/assets/client-img/woodside.png" alt="" ></div>          
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <div class="swiper-btn">
+        <button class="swiper-prev"><img src="/assets/client-img/left-arrow.png" alt="previous" width="25" height="25"></button>
+        <button class="swiper-next"><img src="/assets/client-img/right-arrow.png" alt="next" width="25" height="25"></button>
+      </div>
+        
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 9,
+        spaceBetween:1,
+        slidesPerGroup: 9,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-next",
+          prevEl: ".swiper-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
