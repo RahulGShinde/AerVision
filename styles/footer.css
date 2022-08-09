@@ -1,0 +1,27 @@
+
+/*---footer---*/
+
+.footer {
+    background-color:#f99f1f;
+    text-align: center;
+    padding: 5rem 0;
+    color: #fff;
+    justify-content: space-between;
+  }
+  
+  .footer p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .footer .footer_contact {
+    margin: 4rem 0 0 0;
+  }
+  
+  .footer .footer_contact p a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 100;
+  }
+  
+  

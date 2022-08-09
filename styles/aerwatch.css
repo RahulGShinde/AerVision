@@ -72,15 +72,25 @@ body {
 	height: 400px;
 	object-fit: contain;
 }
-.swiper-btn {
+.engswiper-btn, 
+.myswiper-btn,
+.sensswiper-btn,
+.adaptswiper-btn  {
 	display: flex;
 	gap: 1rem;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
-.swiper-prev,
-.swiper-next {
+
+.myswiper-next,
+.myswiper-prev,
+.engswiper-next,
+.engswiper-prev,
+.sensswiper-next,
+.sensswiper-prev ,
+.adaptswiper-next,
+.adaptswiper-prev{
 	background: none;
 	outline: none;
 	border: none;
@@ -174,6 +184,7 @@ body {
 }
 .heading {
 	text-align: left;
+	font-size: 1.2rem;
 }
 .c-content {
 	color: #fff;
@@ -191,7 +202,8 @@ body {
 }
 .c-content-wrapper{
   font-family: omnes;
-  min-height: 260px;
+  min-height: 300px;
+  font-weight: 100px;
 }
 .c-wrapper .eng-card-img {
 	width: 100%;
@@ -201,13 +213,17 @@ body {
 	object-position: center;
 }
 .c-wrapper .heading,
-.c-wrapper .c-btn {
+.c-wrapper .c-btn,
+.s-wrapper .c-btn{
 	margin: 1rem 3rem 1.5rem 3rem;
 	padding: 0;
 	text-align: left;
+	/* text-decoration: none; */
+	/* color: white; */
 }
 
-.c-wrapper .c-btn {
+.c-wrapper .c-btn,
+.s-wrapper .c-btn {
 	padding: 1rem 2.5rem;
 	color: white;
 	border-radius: 75px;
@@ -220,6 +236,224 @@ body {
   cursor: pointer;
 }
 
-.c-wrapper .c-btn:hover{
+.c-wrapper .c-btn:hover,
+.s-wrapper .c-btn:hover{
   background: #52360e;
 }
+
+.card-container h1{
+	margin-top: 2rem;
+	color: #f99f1f;
+	text-align: center;
+	font-size: 4rem;
+	font-family: omnes;
+	font-weight: 400;
+}
+
+.sensSwiper .s-wrapper{
+
+	background: #f99f1f;
+	margin: 0 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+.s-wrapper .img-wrapper img{
+	height: 300px;
+	width: 100%;
+}
+.s-wrapper .content-wrapper{
+	font-family: omnes;
+	font-size: 1.05rem;
+	line-height: 1.5rem;
+	color: #fff;
+	text-align: left;
+}
+
+.s-wrapper h1{
+	font-family: omnes;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin: 0.5rem 0;
+	color: #fff;
+	text-align: left;
+}
+
+.sensing-container .head-sens{
+	margin-top: 5rem;
+	color: #f99f1f;
+	text-align: center;
+	font-size: 4.5rem;
+	font-family: omnes;
+	font-weight: 400;
+}
+
+.s-wrapper .sens-card{
+	min-height: 450px;
+}
+
+.adaptSwiper .s-wrapper{
+
+	background: #f99f1f;
+	margin: 0 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+.alarmSwiper .s-wrapper{
+
+	background: #f99f1f;
+	margin: 0 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+
+/* *********** */
+
+.analyst-forecasting .heading{
+	text-align: center;
+	font-family: omnes;
+	font-size: 4rem;
+	font-weight: 200;
+	color: #f99f1f;
+}
+
+/* **************** */
+
+.forecasting{
+	font-family: omnes;
+}
+
+.forecasting .forcasthead{
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 200;
+	color: #f99f1f;
+	font-family: omnes;
+}
+
+.forecasting .forecast-card-wrapper{
+	margin: 1rem 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 4rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.forecast-card-wrapper .forecast-img-wrapper img{
+
+	object-fit: cover;
+	object-position: center;
+	/* width: 100%; */
+}
+
+.forecast-card-wrapper .forecast-content{
+    line-height: 1.5rem;
+	padding:0  1rem;
+	margin: 0;
+}
+
+.forecast-card-wrapper h5{
+	font-size: 1.1rem;
+	padding: 1rem 0;
+	margin: 0;
+}
+
+
+/* ***************** */
+
+.deploy, .key{
+	font-family: omnes;
+}
+.deploy h2, .key h2{
+	text-align: center;
+	color: #f99f1f;
+	font-size: 4rem;
+
+}
+.deploy .deploy-content-wrapper{
+
+	max-width: 400px;
+	margin: 2rem auto;
+}
+
+.deploy .deploy-content-wrapper img{
+	width: 100%;
+}
+.deploy .deploy-content, .key ul li{
+
+	margin: 1rem 0;
+	line-height: 1.5rem;
+	font-size: 1.05rem;
+	letter-spacing: 0.05rem;
+	word-spacing: 0.1rem;
+}
+.key h2{
+	padding: 0;
+	margin: 0;
+}
+.key{
+	margin-top: 5rem;
+}
+.key .key-content-wrapper{
+	max-width: 500px;
+	margin: 1rem auto;
+}
+.key a{
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+.key .key-btn {
+	text-align: center;
+	padding: 1.5rem 4rem;
+	border-radius: 50px;
+	background: #f99f1f;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	
+}
+
+/* ********************** */
+
+.next-sol a{
+	font-family: omnes;
+	/* width: max-content; */
+	/* float: right; */
+	margin: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	text-decoration: none;
+	font-size: 2.5rem;
+	color: #000;
+	gap: 2.5rem;
+	margin-right: 3rem;
+}
+.next-sol .next-text{
+	text-align: right;
+}
+
+
+
+
+
+/* ************* */
+
+@media screen and (max-width: 992px) {
+	.forecasting .forecast-card-wrapper{
+		grid-template-columns: 1fr 1fr;
+	}
+  }
+
+  @media screen and (max-width: 600px) {
+	.forecasting .forecast-card-wrapper{
+		grid-template-columns: 1fr;
+	}
+  }
+  
