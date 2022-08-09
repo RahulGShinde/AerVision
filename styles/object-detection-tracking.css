@@ -15,7 +15,7 @@ body{
     margin: 0 3rem;
 }
 .video-container {
-	height: 80vh;
+	height: 550px;
 	width: 100%;
 	position: relative;
 	margin: 2rem 0;
@@ -40,6 +40,13 @@ body{
     background: black;
 	z-index: 0;
 }
+
+@media screen and (max-width: 992px){
+	.video-container video{
+		object-fit: cover;
+	}
+}
+
 
 .backsol a{
 	text-decoration: none;

@@ -44,6 +44,13 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: omnes;
+	border: 1px solid white;
+	outline: none;
+}
+
+.swiper-android .swiper-slide, .swiper-wrapper {
+    transform: translate3d(0px,0,0);
+    border: 1px solid white;
 }
 
 .swiper-slide {
@@ -64,6 +71,7 @@ body {
 	-webkit-align-items: center;
 	align-items: center;
 	height: 100%;
+	border: 1px solid white;
 }
 
 .swiper-slide .f-img {
@@ -137,6 +145,7 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	border: 1px solid white;
 }
 
 /* ----------- */
@@ -345,7 +354,7 @@ body {
 
 	object-fit: cover;
 	object-position: center;
-	/* width: 100%; */
+	width: 100%;
 }
 
 .forecast-card-wrapper .forecast-content{
@@ -454,6 +463,9 @@ body {
   @media screen and (max-width: 600px) {
 	.forecasting .forecast-card-wrapper{
 		grid-template-columns: 1fr;
+	}
+	.forecast-card-wrapper .forecast-img-wrapper img{
+		width: 95%;
 	}
   }
   
